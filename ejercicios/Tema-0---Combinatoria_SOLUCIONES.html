@@ -370,47 +370,52 @@ summary {
 
 <div id="TOC">
 <ul>
-<li><a href="#ejercicios-de-combinatoria-1-con-soluciones"><span class="toc-section-number">1</span> Ejercicios de Combinatoria 1 con soluciones</a><ul>
-<li><a href="#problema-1."><span class="toc-section-number">1.1</span> Problema 1.</a></li>
-<li><a href="#problema-2"><span class="toc-section-number">1.2</span> Problema 2</a></li>
-<li><a href="#problema-3."><span class="toc-section-number">1.3</span> Problema 3.</a></li>
-<li><a href="#problema-4."><span class="toc-section-number">1.4</span> Problema 4.</a></li>
-<li><a href="#problema-5"><span class="toc-section-number">1.5</span> Problema 5</a></li>
-<li><a href="#problema-6"><span class="toc-section-number">1.6</span> Problema 6</a></li>
-<li><a href="#problema-7"><span class="toc-section-number">1.7</span> Problema 7</a></li>
-<li><a href="#problema-8"><span class="toc-section-number">1.8</span> Problema 8</a></li>
-<li><a href="#problema-9"><span class="toc-section-number">1.9</span> Problema 9</a></li>
-<li><a href="#problema-10"><span class="toc-section-number">1.10</span> Problema 10</a></li>
-<li><a href="#problema-11"><span class="toc-section-number">1.11</span> Problema 11</a></li>
-<li><a href="#problema-12"><span class="toc-section-number">1.12</span> Problema 12</a></li>
-</ul></li>
-<li><a href="#ejercicios-de-combinatoria-2"><span class="toc-section-number">2</span> Ejercicios de Combinatoria 2</a><ul>
-<li><a href="#problema-1"><span class="toc-section-number">2.1</span> Problema 1</a></li>
-<li><a href="#problema-2-1"><span class="toc-section-number">2.2</span> Problema 2</a></li>
-<li><a href="#problema-3"><span class="toc-section-number">2.3</span> Problema 3</a></li>
-<li><a href="#problema-4"><span class="toc-section-number">2.4</span> Problema 4</a></li>
-<li><a href="#problema-5-1"><span class="toc-section-number">2.5</span> Problema 5</a></li>
-<li><a href="#problema-6-1"><span class="toc-section-number">2.6</span> Problema 6</a></li>
-<li><a href="#problema-7-1"><span class="toc-section-number">2.7</span> Problema 7</a></li>
-<li><a href="#problema-8-1"><span class="toc-section-number">2.8</span> Problema 8</a></li>
+<li><a href="#problema-2"><span class="toc-section-number">0.1</span> Problema 2</a></li>
+<li><a href="#problema-3."><span class="toc-section-number">0.2</span> Problema 3.</a></li>
+<li><a href="#problema-4."><span class="toc-section-number">0.3</span> Problema 4.</a></li>
+<li><a href="#problema-5"><span class="toc-section-number">0.4</span> Problema 5</a></li>
+<li><a href="#problema-6"><span class="toc-section-number">0.5</span> Problema 6</a></li>
+<li><a href="#problema-7"><span class="toc-section-number">0.6</span> Problema 7</a></li>
+<li><a href="#problema-8"><span class="toc-section-number">0.7</span> Problema 8</a></li>
+<li><a href="#problema-9"><span class="toc-section-number">0.8</span> Problema 9</a></li>
+<li><a href="#problema-10"><span class="toc-section-number">0.9</span> Problema 10</a></li>
+<li><a href="#problema-11"><span class="toc-section-number">0.10</span> Problema 11</a></li>
+<li><a href="#problema-12"><span class="toc-section-number">0.11</span> Problema 12</a></li>
+<li><a href="#ejercicios-de-combinatoria-2"><span class="toc-section-number">1</span> Ejercicios de Combinatoria 2</a><ul>
+<li><a href="#problema-1"><span class="toc-section-number">1.1</span> Problema 1</a></li>
+<li><a href="#problema-2-1"><span class="toc-section-number">1.2</span> Problema 2</a></li>
+<li><a href="#problema-3"><span class="toc-section-number">1.3</span> Problema 3</a></li>
+<li><a href="#problema-4"><span class="toc-section-number">1.4</span> Problema 4</a></li>
+<li><a href="#problema-5-1"><span class="toc-section-number">1.5</span> Problema 5</a></li>
+<li><a href="#problema-6-1"><span class="toc-section-number">1.6</span> Problema 6</a></li>
+<li><a href="#problema-7-1"><span class="toc-section-number">1.7</span> Problema 7</a></li>
+<li><a href="#problema-8-1"><span class="toc-section-number">1.8</span> Problema 8</a></li>
 </ul></li>
 </ul>
 </div>
 
-<p>```</p>
-<div id="ejercicios-de-combinatoria-1-con-soluciones" class="section level1">
-<h1><span class="header-section-number">1</span> Ejercicios de Combinatoria 1 con soluciones</h1>
-<p>Breves soluciones de los problemas</p>
-<div id="problema-1." class="section level2">
-<h2><span class="header-section-number">1.1</span> Problema 1.</h2>
-<p>En una carrera en la que participan diez caballos ¿de cuántas maneras diferentes se pueden dar los cuatro primeros lugares?</p>
-<div id="solución" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> Solución</h3>
-<p>La forma de acabar la carera con variaciones con repetición <span class="math display">\[VR_{n=10}^k=4=\frac{10!}{(10-4)!}=10\cdot 9\cdot 8\cdot 7=5040.\]</span></p>
-<p>Con <code>gttols</code> podemos listar todas las maneras en las que acaban los 4 primeros puestos y contarlas; obviamente obtenemos el mismo resultado.</p>
-<p>El código con R es</p>
-<pre class="r"><code>library(gtools)</code></pre>
-<pre><code>## Warning: package 'gtools' was built under R version 3.6.2</code></pre>
+<pre><code>
+# Ejercicios de Combinatoria 1 con soluciones
+
+Breves soluciones de los problemas
+
+## Problema 1.
+
+En una carrera en la que participan diez caballos ¿de cuántas maneras diferentes se pueden dar los cuatro primeros lugares?
+
+### Solución
+
+La forma de acabar la carera con variaciones con repetición $$VR_{n=10}^k=4=\frac{10!}{(10-4)!}=10\cdot 9\cdot 8\cdot 7=5040.$$
+
+
+Con `gttols` podemos  listar todas las maneras  en las que acaban los 4 primeros puestos y contarlas; obviamente obtenemos el mismo resultado.
+
+El código con R  es
+
+
+```r
+library(gtools)</code></pre>
+<pre><code>## Warning: package &#39;gtools&#39; was built under R version 3.6.2</code></pre>
 <pre class="r"><code>10*9*8*7</code></pre>
 <pre><code>## [1] 5040</code></pre>
 <pre class="r"><code>cuatro_primeros_puestos=permutations(n=10,r=4,set=TRUE,repeats.allowed = FALSE) 
@@ -420,13 +425,11 @@ dim(cuatro_primeros_puestos)# dimesión filas columnas</code></pre>
 <pre><code>## [1] 5040</code></pre>
 <pre class="r"><code>nrow(cuatro_primeros_puestos)# esta función nos cuenta el número de filas</code></pre>
 <pre><code>## [1] 5040</code></pre>
-</div>
-</div>
 <div id="problema-2" class="section level2">
-<h2><span class="header-section-number">1.2</span> Problema 2</h2>
+<h2><span class="header-section-number">0.1</span> Problema 2</h2>
 <p>Una empresa de reciente creación encarga a un diseñador gráfico la elaboración del su logotipo, indicando que ha de seleccionar exactamente tres colores de una lista de seis. ¿Cuántos grupos tienen para elegir el diseñador?</p>
-<div id="solución-1" class="section level3">
-<h3><span class="header-section-number">1.2.1</span> Solución</h3>
+<div id="solución" class="section level3">
+<h3><span class="header-section-number">0.1.1</span> Solución</h3>
 <p>Son combinaciones de 6 colores tomados en grupos de 3 <span class="math display">\[C_{n=6}^{k=3}={{6}\choose{3}}=\frac{6!}{3!\cdot (6-3)!}=20.\]</span></p>
 <p>Con R</p>
 <pre class="r"><code>choose(6,3)</code></pre>
@@ -445,10 +448,10 @@ head(lista_colores)</code></pre>
 </div>
 </div>
 <div id="problema-3." class="section level2">
-<h2><span class="header-section-number">1.3</span> Problema 3.</h2>
+<h2><span class="header-section-number">0.2</span> Problema 3.</h2>
 <p>¿Cuántas palabras diferentes, de cuatro letras, se pueden formar con la palabra byte?</p>
-<div id="solución-2" class="section level3">
-<h3><span class="header-section-number">1.3.1</span> Solución</h3>
+<div id="solución-1" class="section level3">
+<h3><span class="header-section-number">0.2.1</span> Solución</h3>
 <p>Como las 4 letras de byte son diferentes son permutaciones de <span class="math inline">\(4\)</span> elementos <span class="math display">\[P_{n=4}=4!=24\]</span></p>
 <p>Con R</p>
 <pre class="r"><code>factorial(4)</code></pre>
@@ -467,10 +470,10 @@ head(palabras_byte)</code></pre>
 </div>
 </div>
 <div id="problema-4." class="section level2">
-<h2><span class="header-section-number">1.4</span> Problema 4.</h2>
+<h2><span class="header-section-number">0.3</span> Problema 4.</h2>
 <p>¿De cuantas maneras diferentes se pueden elegir el director y el subdirector de un departamento formado por 50 miembros?</p>
-<div id="solución-3" class="section level3">
-<h3><span class="header-section-number">1.4.1</span> Solución</h3>
+<div id="solución-2" class="section level3">
+<h3><span class="header-section-number">0.3.1</span> Solución</h3>
 <p>Con variaciones sin repetición de 50 miembros para dos puestos: director y subdirector</p>
 <p><span class="math display">\[
 VR_{n=50}^{k=2}=\frac{50!}{(50-2)!}=50\cdot 49=2450.
@@ -478,10 +481,10 @@ VR_{n=50}^{k=2}=\frac{50!}{(50-2)!}=50\cdot 49=2450.
 </div>
 </div>
 <div id="problema-5" class="section level2">
-<h2><span class="header-section-number">1.5</span> Problema 5</h2>
+<h2><span class="header-section-number">0.4</span> Problema 5</h2>
 <p>Con once empleados ¿cuántos comités de empresa de cinco personas se pueden formar?</p>
-<div id="solución-4" class="section level3">
-<h3><span class="header-section-number">1.5.1</span> Solución</h3>
+<div id="solución-3" class="section level3">
+<h3><span class="header-section-number">0.4.1</span> Solución</h3>
 <p>Son combinaciones de <span class="math inline">\(n=11\)</span> empleados tomando <span class="math inline">\(k=5\)</span> puestos: director y subdirector que son</p>
 <p><span class="math display">\[C_{n=11}^{k=5}={{11}\choose {5}}=462.\]</span></p>
 <p>Con R</p>
@@ -501,10 +504,10 @@ head(lista_comites)</code></pre>
 </div>
 </div>
 <div id="problema-6" class="section level2">
-<h2><span class="header-section-number">1.6</span> Problema 6</h2>
+<h2><span class="header-section-number">0.5</span> Problema 6</h2>
 <p>¿Cuántas maneras distintas hay de colocar quince libros diferentes en una estantería si queremos que el de Probabilidades esté el primero y el de Estadística en el tercero?</p>
-<div id="solución-5" class="section level3">
-<h3><span class="header-section-number">1.6.1</span> Solución</h3>
+<div id="solución-4" class="section level3">
+<h3><span class="header-section-number">0.5.1</span> Solución</h3>
 <p>Fijamos el primer sitio para el libro de Probabilidad y el tercero para el de Estadística y los <span class="math inline">\(15-2=13\)</span> restantes los permutamos <span class="math inline">\(P_{n=13}=13!=6227020800.\)</span></p>
 <p>Con R</p>
 <pre class="r"><code>factorial(13)</code></pre>
@@ -516,10 +519,10 @@ head(lista_comites)</code></pre>
 </div>
 </div>
 <div id="problema-7" class="section level2">
-<h2><span class="header-section-number">1.7</span> Problema 7</h2>
+<h2><span class="header-section-number">0.6</span> Problema 7</h2>
 <p>¿Cuántos caracteres diferentes podemos formar utilizando a lo sumo a tres símbolos de los utilizados en el alfabeto Morse?</p>
-<div id="solución-6" class="section level3">
-<h3><span class="header-section-number">1.7.1</span> Solución</h3>
+<div id="solución-5" class="section level3">
+<h3><span class="header-section-number">0.6.1</span> Solución</h3>
 <p>Palabras con el alfabeto Morse: de longitud 1 hay 2, de longitud 2 hay <span class="math inline">\(2^2=4\)</span> y de longitud 3 hay <span class="math inline">\(2^3=8.\)</span>. En total <span class="math inline">\(2+4+8=14\)</span> palabras con a lo sumo tres caracteres.</p>
 <p>Con R podemos hacer</p>
 <pre class="r"><code>morse=c(&quot;.&quot;,&quot;_&quot;)
@@ -555,18 +558,18 @@ nrow(morse_long_1)+nrow(morse_long_2)+nrow(morse_long_3)</code></pre>
 </div>
 </div>
 <div id="problema-8" class="section level2">
-<h2><span class="header-section-number">1.8</span> Problema 8</h2>
+<h2><span class="header-section-number">0.7</span> Problema 8</h2>
 <p>Un supermercado organiza una rifa con un premio de una botella de cava para todas las papeletas que tengan las dos últimas cifras iguales a las correspondientes dos últimas cifras del número premiado en el sorteo de Navidad. Supongamos que todos los décimos tienen cuatro cifras y que existe un único décimo (participación) de cada numeración ¿Cuántas botellas repartirá el supermercado?</p>
-<div id="solución-7" class="section level3">
-<h3><span class="header-section-number">1.8.1</span> Solución</h3>
+<div id="solución-6" class="section level3">
+<h3><span class="header-section-number">0.7.1</span> Solución</h3>
 <p>Pues habrá un premio por cada combinación de las primeras dos cifras <span class="math inline">\(10^2=100\)</span> botellas.</p>
 </div>
 </div>
 <div id="problema-9" class="section level2">
-<h2><span class="header-section-number">1.9</span> Problema 9</h2>
+<h2><span class="header-section-number">0.8</span> Problema 9</h2>
 <p>¿Cuántas palabras diferentes podemos formar con todas las letras de la palabra estadística?</p>
-<div id="solución-8" class="section level3">
-<h3><span class="header-section-number">1.9.1</span> Solución</h3>
+<div id="solución-7" class="section level3">
+<h3><span class="header-section-number">0.8.1</span> Solución</h3>
 <pre class="r"><code>word=&quot;estadistica&quot; # no tenemos en cuenta el acento
 word</code></pre>
 <pre><code>## [1] &quot;estadistica&quot;</code></pre>
@@ -587,10 +590,10 @@ letras</code></pre>
 </div>
 </div>
 <div id="problema-10" class="section level2">
-<h2><span class="header-section-number">1.10</span> Problema 10</h2>
+<h2><span class="header-section-number">0.9</span> Problema 10</h2>
 <p>En una tienda de regalos hay relojes de arena con cubetas de colores, y no hay diferencia alguna entre las dos cubetas que forman cada reloj. Si hay cuatro colores posibles y el color de los dos recipientes puede coincidir ¿cuántos modelos de reloj de arena puede ofrecer el establecimiento?</p>
-<div id="solución-9" class="section level3">
-<h3><span class="header-section-number">1.10.1</span> Solución</h3>
+<div id="solución-8" class="section level3">
+<h3><span class="header-section-number">0.9.1</span> Solución</h3>
 <p>Son <span class="math inline">\(CR_{n=4}^{k=2}={{4+2-1}\choose{2}}={{5}\choose{2}}=\frac{5!}{2!\cdot (5-2)!}=10.\)</span></p>
 <p>Con R hacemos</p>
 <pre class="r"><code>choose(4+2-1,2)</code></pre>
@@ -611,10 +614,10 @@ gtools::combinations(n=4,r=2,v=colores,repeats.allowed = TRUE)</code></pre>
 </div>
 </div>
 <div id="problema-11" class="section level2">
-<h2><span class="header-section-number">1.11</span> Problema 11</h2>
+<h2><span class="header-section-number">0.10</span> Problema 11</h2>
 <p>En una partida de parchís gana aquel jugador que consigue alcanzar antes con sus cuatro fichas la llegada. Si hay cuatro jugadores y la partida continua hasta que todos han completado el recorrido ¿cuántos órdenes de llegadas hay para la dieciséis fichas?</p>
-<div id="solución-10" class="section level3">
-<h3><span class="header-section-number">1.11.1</span> Solución</h3>
+<div id="solución-9" class="section level3">
+<h3><span class="header-section-number">0.10.1</span> Solución</h3>
 <pre class="r"><code>factorial(16)/(factorial(4)^4)</code></pre>
 <pre><code>## [1] 63063000</code></pre>
 <pre class="r"><code>colores=c(&quot;azul&quot;,&quot;rojo&quot;,&quot;amarillo&quot;,&quot;verde&quot;)
@@ -636,10 +639,10 @@ object.size(partidas_1000)# Es lo que ocupan 1000 partidas en memoria</code></pr
 </div>
 </div>
 <div id="problema-12" class="section level2">
-<h2><span class="header-section-number">1.12</span> Problema 12</h2>
+<h2><span class="header-section-number">0.11</span> Problema 12</h2>
 <p>Se han de repartir cinco becas entre diez españoles y seis extranjeros, de manera que se den tres a españoles y dos a extranjeros ¿De cuántas maneras se puede hacer el reparto?</p>
-<div id="solución-11" class="section level3">
-<h3><span class="header-section-number">1.12.1</span> Solución</h3>
+<div id="solución-10" class="section level3">
+<h3><span class="header-section-number">0.11.1</span> Solución</h3>
 <p>Escojo de entre 10 españoles a 3 <span class="math inline">\(C_{n=10}^{k=3}={ 5 \choose 3}\)</span> y por cada una de estas elecciones escojo 2 extranjeros entre los 6 <span class="math inline">\(C_{n=6}^{k=2}={6 \choose 2}\)</span> en total <span class="math inline">\({10 \choose 3}\cdot { 6 \choose 2}=\frac{10!}{3!\cdot (10-3)!}\cdot \frac{6!}{2!\cdot (6-2)!}=1800.\)</span></p>
 <p>Con R</p>
 <pre class="r"><code>choose(10,3)*choose(6,2)</code></pre>
@@ -648,28 +651,27 @@ object.size(partidas_1000)# Es lo que ocupan 1000 partidas en memoria</code></pr
 <div style="page-break-after: always;"></div>
 </div>
 </div>
-</div>
 <div id="ejercicios-de-combinatoria-2" class="section level1">
-<h1><span class="header-section-number">2</span> Ejercicios de Combinatoria 2</h1>
+<h1><span class="header-section-number">1</span> Ejercicios de Combinatoria 2</h1>
 <p>En todas las resoluciones se deja como ejercicio cómo generar todos los objetos combinatorios con la librería <code>gtools</code> o de otra manera.</p>
 <div id="problema-1" class="section level2">
-<h2><span class="header-section-number">2.1</span> Problema 1</h2>
+<h2><span class="header-section-number">1.1</span> Problema 1</h2>
 <p>¿De cuantos modos diferentes se pueden colocar tres libros diferentes en una estantería?</p>
-<div id="solución-12" class="section level3">
-<h3><span class="header-section-number">2.1.1</span> Solución</h3>
+<div id="solución-11" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> Solución</h3>
 <p><span class="math inline">\(3!=6.\)</span></p>
 </div>
 </div>
 <div id="problema-2-1" class="section level2">
-<h2><span class="header-section-number">2.2</span> Problema 2</h2>
+<h2><span class="header-section-number">1.2</span> Problema 2</h2>
 <p>Seis personas entran en el cine. ¿De cuantos modos diferentes se pueden sentar en una fila?</p>
-<div id="solución-13" class="section level3">
-<h3><span class="header-section-number">2.2.1</span> Solución</h3>
+<div id="solución-12" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Solución</h3>
 <p>Supondremos que se sientan de forma consecutiva <span class="math inline">\(6!=720.\)</span></p>
 </div>
 </div>
 <div id="problema-3" class="section level2">
-<h2><span class="header-section-number">2.3</span> Problema 3</h2>
+<h2><span class="header-section-number">1.3</span> Problema 3</h2>
 <p>Tenemos tres premios diferentes para repartir entre una serie de ciudadanos destacados. Si hay 4 candidatos a dichos premios, de cuantos modos se pueden distribuir los premios en dos casos:</p>
 <blockquote>
 <ol style="list-style-type: decimal">
@@ -677,8 +679,8 @@ object.size(partidas_1000)# Es lo que ocupan 1000 partidas en memoria</code></pr
 <li>Si un ciudadano puede recibir más de un premio.</li>
 </ol>
 </blockquote>
-<div id="solución-14" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> Solución</h3>
+<div id="solución-13" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Solución</h3>
 <p>En el primer caso <span class="math inline">\({4 \choose 3}\cdot 3!= 4\cdot 6=24\)</span> maneras. En el segundo caso Que los tres premios se los lleve 1 delos 4 ciudadanos <span class="math inline">\({4\choose 1}=4\)</span> casos. Que los tres premios se los lleven 2 de los 4 ciudadanos, entonces uno se lleva dos premisos y el otro uno escojo un personaje <span class="math inline">\({4\choose 1}=4\)</span> y le asigno dos premios <span class="math inline">\({3 \choose 2}\)</span> y de los tres personajes que queda escojo uno para el premio restante <span class="math inline">\({4\choose 1}\)</span>, en total <span class="math inline">\({4\choose 1}\cdot {3\choose 2}\cdot {3\choose 1}=4\cdot 3\cdot 3=36\)</span>. Por último que cada uno se lleve un solo premio es <span class="math inline">\({4 \choose 3}*3!\)</span>. Así que en total tenemos</p>
 <p><span class="math display">\[{4\choose 1}+{4\choose 1}\cdot {3\choose 2}\cdot {3\choose 1}+{4 \choose 3}\cdot 3!=4+36+24=64\]</span></p>
 <p>maneras de repartir los premios.</p>
@@ -754,18 +756,18 @@ object.size(partidas_1000)# Es lo que ocupan 1000 partidas en memoria</code></pr
 </div>
 </div>
 <div id="problema-4" class="section level2">
-<h2><span class="header-section-number">2.4</span> Problema 4</h2>
+<h2><span class="header-section-number">1.4</span> Problema 4</h2>
 <p>Dado un conjunto de 15 puntos del plano, ¿cuantas líneas se necesitan para juntar todos los posibles pares de puntos?</p>
-<div id="solución-15" class="section level3">
-<h3><span class="header-section-number">2.4.1</span> Solución</h3>
+<div id="solución-14" class="section level3">
+<h3><span class="header-section-number">1.4.1</span> Solución</h3>
 <p>Pues son <span class="math inline">\({15 \choose 2}= \frac{15!}{2!\cdot (15-2)!}=105\)</span>. Notemos que coincide con el número de aristas de un grafo no dirigido completo de <span class="math inline">\(n=15\)</span> vértices.</p>
 </div>
 </div>
 <div id="problema-5-1" class="section level2">
-<h2><span class="header-section-number">2.5</span> Problema 5</h2>
+<h2><span class="header-section-number">1.5</span> Problema 5</h2>
 <p>Dada una caja con los siguientes focos; 2 de 25 vatios, 4 de 40 vatios y 4 de 100 vatios, ¿de cuantos modos se pueden elegir 3 de ellos?</p>
-<div id="solución-16" class="section level3">
-<h3><span class="header-section-number">2.5.1</span> Solución</h3>
+<div id="solución-15" class="section level3">
+<h3><span class="header-section-number">1.5.1</span> Solución</h3>
 <p>Lo haremos de tres maneras.</p>
 <p>PRIMERA: Solo consideramos la tripleta de “vatios” que podemos conseguir (sin repetir los focos). Así los casos son:</p>
 <ul>
@@ -812,26 +814,26 @@ nrow(lista_vatios)</code></pre>
 </div>
 </div>
 <div id="problema-6-1" class="section level2">
-<h2><span class="header-section-number">2.6</span> Problema 6</h2>
+<h2><span class="header-section-number">1.6</span> Problema 6</h2>
 <p>Supongamos que las placas de matrícula de coches se componen de tres letras seguidas de tres dígitos. Si se pueden usar todas las combinaciones posibles, ¿cuantas placas diferentes se podrían formar?</p>
-<div id="solución-17" class="section level3">
-<h3><span class="header-section-number">2.6.1</span> Solución</h3>
+<div id="solución-16" class="section level3">
+<h3><span class="header-section-number">1.6.1</span> Solución</h3>
 <p>Consideraremos 10 dígitos y 26 letras. Así son <span class="math inline">\(VR_{n=10}^{k=3}\cdot VR_{n=24}^{k=3}=10^3\cdot 26^3=17576000.\)</span></p>
 </div>
 </div>
 <div id="problema-7-1" class="section level2">
-<h2><span class="header-section-number">2.7</span> Problema 7</h2>
+<h2><span class="header-section-number">1.7</span> Problema 7</h2>
 <p>¿De cuantos modos diferentes se pueden enfrentar en un partido 2 equipos de una liga que tenga 8?</p>
-<div id="solución-18" class="section level3">
-<h3><span class="header-section-number">2.7.1</span> Solución</h3>
+<div id="solución-17" class="section level3">
+<h3><span class="header-section-number">1.7.1</span> Solución</h3>
 <p>Si lo que queremos es todos los posibles encuentros <span class="math inline">\({8\choose 2}=28\)</span>.</p>
 </div>
 </div>
 <div id="problema-8-1" class="section level2">
-<h2><span class="header-section-number">2.8</span> Problema 8</h2>
+<h2><span class="header-section-number">1.8</span> Problema 8</h2>
 <p>En un almacén hay cajas rojas y verdes. - ¿De cuantas formas se pueden colocar en fila 20 cajas si 15 son rojas y 5 son verdes? - ¿Y si hay 10 de cada color?</p>
-<div id="solución-19" class="section level3">
-<h3><span class="header-section-number">2.8.1</span> Solución</h3>
+<div id="solución-18" class="section level3">
+<h3><span class="header-section-number">1.8.1</span> Solución</h3>
 <p>En el primer caso son <span class="math inline">\(PR_{20}^{15, 5}={20 \choose {15 5}}=\frac{20!}{ 15!\cdot 5!}=15504.\)</span></p>
 <p>En el segundo caso son <span class="math inline">\(PR_{20}^{10, 10}={20 \choose{15, 5}}=\frac{20!}{ 10!\cdot 10!}=184756.\)</span></p>
 </div>

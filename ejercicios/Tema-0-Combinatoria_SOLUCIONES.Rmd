@@ -130,7 +130,7 @@ No tenemso más remedio que enumerarlos: con un símbolo son 2, con 2 simbolos $
 
 **Solución**
 
-$$10*9$=90.$$
+$$10*9=90.$$
 
 
 9. ¿Cuántas palabras diferentes podemos formar con todas las letras de la palabra estadística?

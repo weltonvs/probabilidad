@@ -2,7 +2,10 @@
 title: "Ejercicios Tema 0 - Repaso de combinatoria y conjuntos"
 author: "Ricardo Alberich, Juan Gabriel Gomila y Arnau Mir"
 date: "Curso de Probabilidad y Variables Aleatorias con R y Python"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +20,7 @@ Breves soluciones de los problemas
 
 **Solución**
 
-La forma de acabar la carera con variaxiones con repetición $$VR_{n=10}^k=4=\frac{10!}{(10-4)!}=10\cdot 9\cdot 8\cdot 7=`r 10*9*8*7`.$$
+La forma de acabar la carera con variaxiones con repetición $$VR_{n=10}^{k=4}=\frac{10!}{(10-4)!}=10\cdot 9\cdot 8\cdot 7=`r 10*9*8*7`.$$
 
 
 Con `gttols` podemos  listar todas las maneras  en las que acaban los 4 primeros puestos y contarlas; obviamente obtenemos el mismo resultado.
